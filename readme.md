@@ -50,7 +50,7 @@ Monitor mode allows your interface to get packets that are not meant to be sent 
 
 ```bash
 # Kill the network
-airman-ng check kill
+airmon-ng check kill
 
 # Set the interface to monitor mode
 sudo iw dev wlan0 set type monitor
